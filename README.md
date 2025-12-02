@@ -7,6 +7,13 @@ pictures for all things will be used - stored in folders named just the number o
 
 
 // TODO
-serve static regular site using template
-figure out how to track visits, then serve dynamic based on that
 programmatic way to delete parts of picture
+fix the fact spaces disappearing
+start styling
+look for more objects
+decide on behavior for index
+
+
+[cookies](https://flask.palletsprojects.com/en/stable/quickstart/#:~:text=Uploading%20Files.-,Cookies,-%C2%B6)
+
+[sessions](https://flask.palletsprojects.com/en/stable/quickstart/#sessions)
