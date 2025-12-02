@@ -1,0 +1,38 @@
+{
+    "0": {
+        "description": "This is a second example test object. It was used after the first example object during the development of this website to further test the site. Because it came second, the details of the process were more fleshed out before the testing began.\n",
+        "metadata": {
+            "title": "Second Example",
+            "artist": "Gavin Davis",
+            "date": "2025",
+            "medium": "Digital"
+        }
+    },
+    "1": {
+        "description": "     is a        example test object. It was used       the first                during the development of      website    further test     site. Because it came         the         of     process      more fleshed out before     testing began.",
+        "metadata": {
+            "title": "   ond Examp e",
+            "artist": "Gav n  a  s",
+            "date": "2070",
+            "medium": "D gi al"
+        }
+    },
+    "2": {
+        "description": "     is a        example test         It                                                    development of                 further          site.            came                     of     process      more fleshed                testing began.",
+        "metadata": {
+            "title": "    n   xa p e",
+            "artist": "G v       s",
+            "date": "3038",
+            "medium": "  gi  l"
+        }
+    },
+    "3": {
+        "description": "                                                                                                                                                                                                                                                    ",
+        "metadata": {
+            "title": "Unknown",
+            "artist": "Unknown",
+            "date": "Unknown",
+            "medium": "Unknown"
+        }
+    }
+}
