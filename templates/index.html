@@ -2,8 +2,8 @@
 <html>
     <head>
         <!-- <link rel="stylesheet" href="static/default.css"> -->
-        <link rel="stylesheet" href="static/index.css">
-        <link rel="shortcut icon" href="static/assets/favicon.ico">
+        <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+        <link rel="shortcut icon" href="{{url_for('static', filename='assets/favicon.ico')}}">
     </head>
 
     <body>
@@ -11,5 +11,5 @@
             <h1> Main Page </h1>
         </header>
     </body>
-    <script src="static/index.js" defer></script>
+    <script src="{{url_for('static', filename='index.js')}}" defer></script>
 </html>

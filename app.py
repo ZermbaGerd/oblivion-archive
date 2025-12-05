@@ -65,6 +65,7 @@ def getEntryData(entry, time):
         metadata = content[str(time)]["metadata"]
         description = content[str(time)]["description"]
 
+    # look in the assets folder for the picture associated with the given entry at the given number of accesses
     picURL = url_for('static', filename="assets/" + entry + "/" + str(time) + ".png")
 
     return description, metadata, picURL
