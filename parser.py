@@ -31,7 +31,6 @@ def censorText(text, chance):
 
 
 def censorMetadata(metadata, iter, maxIter):
-
     # if it's the last one, replace them all with unknwon
     if iter == maxIter-1:
         metadata["title"] = "Unknown"
@@ -60,6 +59,7 @@ def censorMetadata(metadata, iter, maxIter):
         # generate random one digit number, then multiply scale by how many times we've done it (varying a little around 10)
         date += random.randint(-9,+9) * random.randint(9,11)**(iter+1)
         metadata["date"] = str(date)
+
 
 
 def generateEntry(text, metadata, iterations=3):
@@ -99,6 +99,7 @@ def doProcess():
     metadata["artist"] = sys.stdin.readline()[:-1]
     metadata["date"] = sys.stdin.readline()[:-1]
     metadata["medium"] = sys.stdin.readline()[:-1]
+    metadata["citation"] = ""
 
     text = sys.stdin.readline()
 
@@ -110,8 +111,8 @@ def doProcess():
     with open(title+".json", "w") as outfile:
         json.dump(entry, outfile, indent=4)
     
-    with open("entries.txt", "a") as outfile:
-        outfile.write(title + "\n")
+    # with open("entries.txt", "a") as outfile:
+    #     outfile.write(title + "\n")
 
 
 doProcess()

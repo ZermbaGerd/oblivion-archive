@@ -5,7 +5,8 @@
             "title": "Second Example",
             "artist": "Gavin Davis",
             "date": "2025",
-            "medium": "Digital"
+            "medium": "Digital",
+            "citation": ""
         }
     },
     "1": {
@@ -14,7 +15,8 @@
             "title": "   ond Examp e",
             "artist": "Gav n  a  s",
             "date": "2070",
-            "medium": "D gi al"
+            "medium": "D gi al",
+            "citation": ""
         }
     },
     "2": {
@@ -23,7 +25,8 @@
             "title": "    n   xa p e",
             "artist": "G v       s",
             "date": "3038",
-            "medium": "  gi  l"
+            "medium": "  gi  l",
+            "citation": ""
         }
     },
     "3": {
@@ -32,7 +35,8 @@
             "title": "Unknown",
             "artist": "Unknown",
             "date": "Unknown",
-            "medium": "Unknown"
+            "medium": "Unknown",
+            "citation": ""
         }
     }
 }
