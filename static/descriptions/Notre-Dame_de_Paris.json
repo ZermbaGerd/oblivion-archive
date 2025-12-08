@@ -1,0 +1,42 @@
+{
+    "0": {
+        "description": "The Notre Dame Cathedral stands on an island in the Seine River in Paris, France. It has stood for almost a millennia, and is a symbol of the lasting power of human architecture. While it has been desecrated and damaged over time, it has always been restored to its original, authentic state. Nothing could happen that would destroy this permanently.\n",
+        "metadata": {
+            "title": "Notre-Dame de Paris",
+            "artist": "Maurice de Sully",
+            "date": "1163",
+            "medium": "Building",
+            "citation": "https://www.independent.co.uk/news/world/europe/notre-dame-fire-cathedral-before-after-paris-cause-damage-a8872051.html"
+        }
+    },
+    "1": {
+        "description": "    Notre Dame           stands    an island in the       River in Paris, France. It has stood for almost a millennia, and    a symbol of     lasting                architecture. While    has been                damaged over       it            been restored        original, authentic                could happen that       destroy this permanently.",
+        "metadata": {
+            "title": "  tr  D me de P  is",
+            "artist": "Maur ce de Sully",
+            "date": "1109",
+            "medium": "B i di g",
+            "citation": "https://www.independent.co.uk/news/world/europe/notre-dame-fire-cathedral-before-after-paris-cause-damage-a8872051.html"
+        }
+    },
+    "2": {
+        "description": "    Notre                                       the       River in Paris,            has       for almost a millennia,          symbol                                             While        been                        over                                                                     nothing could                   destroy this             ",
+        "metadata": {
+            "title": "  t     m     P  is",
+            "artist": " a    e d   ull ",
+            "date": "785",
+            "medium": "  i  i  ",
+            "citation": "https://www.independent.co.uk/news/world/europe/notre-dame-fire-cathedral-before-after-paris-cause-damage-a8872051.html"
+        }
+    },
+    "3": {
+        "description": "This is a level from the hit video game Assassin's Creed Unity. After the tragic fire that destroyed the Notre Dame Cathedral in Paris, France, the only semi-accurate depiction of the cathedral remaining was the edited and gamified 3d model used for this level.",
+        "metadata": {
+            "title": "Assassin's Creed Unity - Notre Dame Chapel",
+            "artist": "Ubisoft Games",
+            "date": "2014",
+            "medium": "Digital",
+            "citation": "https://www.youtube.com/watch?v=MquyxyBqZXE"
+        }
+    }
+}
