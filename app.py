@@ -28,7 +28,7 @@ def get_entry(entry_name):
     response = make_response(render_template("entry.html", description=entryData[0], metadata=entryData[1], pictureURL=entryData[2]))
 
     # if they haven't visited yet, set their cookie
-    if not request.cookies.get(entry_name):
+    if not request.cookies.get(entry_name) or request.cookies.get(entry_name) == "0":
         response.set_cookie(entry_name, "1")
     
     else: # otherwise increment it
@@ -37,6 +37,21 @@ def get_entry(entry_name):
     return response
 
 
+# resets all of the cookies back to 0. i think the check i edited in the "if they haven't visited yet" line should be ok with it
+@app.route("/reset_entries")
+def reset_entries():
+    # TODO: make this not hardcoded in this function - so that you can use the same list of index.html and this
+    entryList = ["Example",
+        "Second_Example",
+        "Instagram_Account_-_Cristiano_Ronaldo",
+        "Notre-Dame_de_Paris"]
+    
+    response = make_response()
+    for entry in entryList:
+        if request.cookies.get(entry):
+            response.set_cookie(entry, "0")
+    
+    return response, 200
 
 def generateUsername():
     return "placeholder"

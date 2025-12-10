@@ -20,3 +20,22 @@ function createEntryLink(name) {
 
     return entryLink
 }
+
+
+//  rudimentary reset button
+function createResetButton() {
+    resetButton = document.createElement("button")
+    resetButton.id = "resetButton"
+    resetButton.innerText = "Reset Entries"
+
+    resetButton.addEventListener("click", () => {
+        console.log("tried to reset cookies");
+        fetch("/reset_entries")
+            .catch((error) => {
+                alert("Resetting the entries failed")
+            })
+    })
+    document.body.appendChild(resetButton)
+}
+
+createResetButton()

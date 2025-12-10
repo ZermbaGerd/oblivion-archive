@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- <link rel="stylesheet" href="static/default.css"> -->
         <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
         <link rel="shortcut icon" href="{{url_for('static', filename='assets/favicon.ico')}}">
     </head>
@@ -11,9 +10,7 @@
             <h1> Main Page </h1>
         </header>
 
-        <div id="entryList">
-
-        </div>
+        <div id="entryList"> </div>
     </body>
     <script src="{{url_for('static', filename='index.js')}}" defer></script>
 </html>
