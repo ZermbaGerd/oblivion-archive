@@ -5,15 +5,18 @@
     <link rel="shortcut icon" href="{{url_for('static', filename='assets/favicon.ico')}}">
 </head>
 
+<div id ="imgBox">
+    <img id="entryImage" src="{{pictureURL}}">
+</div>
 
-<img src="{{pictureURL}}">
+<div id="info"?>
+    <h1> {{metadata["title"]}}</h1>
 
-<h1> {{metadata["title"]}}</h1>
+    <h2> {{metadata["artist"]}}</h2>
+    <h2> {{metadata["date"]}}</h2>
+    <h2> {{metadata["medium"]}}</h2>
 
-<h2> {{metadata["artist"]}}</h2>
-<h2> {{metadata["date"]}}</h2>
-<h2> {{metadata["medium"]}}</h2>
+    <p> {{description}} </p>
 
-<!-- TODO: fix the fact that the spaces are not being shown. figure out if they're removed visually or actually from description -->
-<p> {{description}} </p>
-
+    <a href="/"> Back</a>
+</div>
