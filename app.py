@@ -1,8 +1,10 @@
 from flask import Flask
 from flask import request, render_template, make_response, url_for, send_from_directory
+from flask_cors import CORS
 import json
 
 app = Flask(__name__)
+CORS(app)
 
 
 @app.route("/")
